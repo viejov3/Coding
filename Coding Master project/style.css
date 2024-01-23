@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+   margin: 0%;
+   padding: 0%;
+   list-style: none;
+   text-decoration: none;
+
+}
+
+.main {
+   width: 100%;
+   background: linear-gradient(to top, rgba(0, 0, 0, 5)50%, rgba(0, 0, 0, 5)50%);
+   background-position: center;
+   height: 12vh;
+   display: flex;
+   position: fixed;
+}
+
+header {
+   position: fixed;
+}
+
+
+.nav {
+   width: 1200px;
+   height: 10px;
+   margin: 30px;
+
+}
+
+.icon {
+   width: 150px;
+   float: left;
+   height: 75px;
+
+
+}
+
+#img {
+   margin-top: -25%;
+}
+
+.menu {
+   width: 400px;
+   height: 70px;
+   float: left;
+}
+
+.menu ul {
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.menu ul li {
+   list-style: none;
+   margin-left: 100px;
+   margin-top: 10px;
+   font-size: 14px;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+   color: red;
+}
+
+.search {
+   width: 250px;
+   float: right;
+   margin-right: 100px;
+   margin-top: 2px;
+}
+
+.serh {
+   font-family: 'Times New Roman';
+   width: 300px;
+   height: 35px;
+   background: transparent;
+   color: aliceblue;
+   font-size: 16px;
+   padding: 10px;
+   border: 1px solid red;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+
+
+
+}
+
+.btn {
+   position: absolute;
+   font-family: 'Times New Roman';
+   width: 80px;
+   height: 35px;
+   margin-top: -35px;
+   margin-left: 300px;
+   text-transform: capitalize;
+   border: 1px solid red;
+   color: #fff;
+   background: black;
+   font-size: 15px;
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+
+
+}
+
+.btn:hover {
+   background-color: red;
+
+}
+
+#arrow {
+   position: absolute;
+   margin-top: 2px;
+   margin-left: 725px;
+   animation: animi 3s linear infinite;
+
+}
+
+@keyframes animi {
+   50% {
+      opacity: 0%;
+   }
+
+}
+
+
+.sidebar {
+   position: fixed;
+   left: 0;
+   width: 250px;
+   height: 100%;
+   background: black;
+   color: #fff;
+}
+
+#login {
+   position: absolute;
+   width: 80px;
+   margin-top: -30px;
+   margin-left: 560px;
+}
+
+.sidebar h2 {
+   font-size: 30px;
+   text-align: center;
+   line-height: 70px;
+   background: rgb(4, 4, 4);
+   text-shadow: 5px 4px 10px red;
+   text-transform: capitalize;
+   border-bottom: 0.5px solid red;
+   border-top: 0.5px solid red;
+}
+
+.sidebar ol a {
+   display: block;
+   height: 100%;
+   width: 100%;
+   line-height: 50px;
+   font-size: 15px;
+   color: white;
+   text-align: center;
+   transition: 0.4s;
+
+
+
+}
+
+.sidebar ol a:hover {
+   background: rgb(78, 2, 2);
+
+
+}
+
+.sidebar ol li a:hover {
+   padding-left: 20px;
+   border-radius: 10px;
+   font-size: 20px;
+
+}
+html{
+   scroll-behavior: smooth;
+}
+
+
+p {
+   font-family: 'Poppins', sans-serif;
+   justify-content: center;
+   padding-left: 50px;
+   padding-right: 50px;
+   text-align: justify;
+
+
+
+
+}
+
+pre {
+   font-family: 'Times New Roman', Times, serif;
+   
+   font-size: 20px;
+}
+
+.video-container {
+   max-width: 1200px;
+   margin: 50px auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.video-card {
+   width: 350px;
+   margin: 10px;
+   background-color: #fff;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+   border-radius: 8px;
+   overflow: hidden;
+   transition: transform 0.3s ease-in-out;
+
+}
+
+.video-card:hover {
+   transform: scale(1.05);
+}
+
+.video-title {
+   font-size: 1.2em;
+   margin-bottom: 10px;
+   text-transform: capitalize;
+   font-family: 'Times New Roman';
+
+}
+
+.video-channel {
+   font-size: 0.9em;
+   color: #5e2424;
+   margin-bottom: 5px;
+
+}
+
+.details ul li {
+   justify-content: space-between;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   list-style: disc;
+
+
+}
+
+
+.details ul {
+   padding-left: 40px;
+  
+}
+
+.service p {
+   text-align: center;
+   font-weight: 400;
+
+}
+
+.service ul li {
+   font-size: large;
+   text-decoration: underline;
+   text-transform: capitalize;
+   font-weight: bold;
+
+
+}
+
+.service ul p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   justify-content: space-between;
+
+
+}
+
+.contact img {
+   justify-content: space-between;
+   padding: 5px;
+}
+
+.contact a {
+
+   padding: 1000px;
+   color: black;
+   padding: 10px 20px;
+   text-decoration: none;
+}
+a{
+   color: rgb(18, 7, 2);
+
+}
+button:hover{
+box-shadow: 2px 5px 10px 1px red;
+
+font-size: 15px;
+}
+
+#feedback{
+   animation: feedback 3s linear infinite;
+   
+}
+@keyframes feedback
+{
+  50% {opacity: 0%;}
+
+}
+.topic{
+   text-shadow: 0px 2px 8px rgb(248, 137, 137);
+   text-decoration: underline;
+   margin-top: 20px;
+  
+}
+.page{
+   margin-top: 0%;
+   margin-left: 17%;
+   margin-right: 1%;
+}
+.top{
+   
+   align-content: center;
+   height:75px
+  
+}

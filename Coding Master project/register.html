@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <link rel="icon" href="Image/CM logo.jpg">
+    <title>Resister Page</title>
+</head>
+<style>
+    .vicky {
+        top: 8%;
+        left: 70%;
+        position: absolute;
+      
+       
+        padding: 40px 40px 50px 20px;
+        color: rgb(175, 175, 175);
+        border-radius: 10px;
+        
+
+    }
+
+    #od {
+        color: black;
+        background: silver;
+    }
+
+    #image {
+        background-size: cover;
+
+    }
+    
+</style>
+
+<body background="image/register wallpaper.jpg" id="image"><br>
+    <center>
+        <div class="vicky">
+            <h1><u>Register form</u></h1><br>
+            <form action="login.html" enctype="multipart/form-data">
+                <label for="fname"><b>First name</b></label>
+                <input type="text" id="fname" required> <br><br>
+
+                <label for="lname"><b>Last name</b></label>
+                <input type="text" id="lname" required> <br><br>
+
+                <label for="sex"><b>Gender</b></label>
+                <input type="radio" id="sex" name="sex"> Male
+                <input type="radio" id="sex" name="sex">Female <br> <br>
+
+                <label for="date"><b>Enter the DOB</b></label>
+                <input type="date" id="date" required><br><br>
+
+
+                <label for=""><b>Phone number</b></label>
+                <input type="number" placeholder="xx-xxxxx xxxxx" size="100" required pattern="[0-9]{10}"><br><br><br>
+                <input type="text" placeholder="Username" required pattern="[A-Za-z0-9]{6,}"><br><br>
+                <input type="password" placeholder="Password" required pattern="[A-za-z0-9@]{8,}"><br><br>
+<br>
+                <fieldset>
+                    <legend id="od">Optional data</legend>
+                    <label for=""> <b><u>Select your hobby</u></b></label> <br>
+
+                    <input type="checkbox" name="hob[]">Music <br>
+                    <input type="checkbox" name="hob[]">Reading books <br>
+                    <input type="checkbox" name="hob[]"> drawing <br>
+
+
+                    <b>Select your hobby</b>
+                    <select> <br>
+                        <option value="Select">select</option> <br>
+                        <option value="Java">Java</option> <br>
+                        <option value="C++">C++</option> <br>
+                        <option value="HTML">HTML</option> <br>
+                        <option value="Node js">Node js</option> <br>
+                        <option value="css">css</option> <br>
+
+                    </select>
+                </fieldset><br><br>
+                
+                <input type="submit"> <input type="reset">
+     
+        </div>
+        </form>
+    </center>
+</body>
+
+</html>
